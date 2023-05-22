@@ -1,0 +1,272 @@
+* {
+    font-family: 'Exo', sans-serif;
+    /* Por las dudas */
+    margin: 0;
+    padding: 0;
+}
+
+
+section {
+    /* Primer valor es vertical y el segundo horizontal */
+    margin: 5% 10%;
+}
+
+/* Inicia sección header */
+#header{
+    /* texto */
+    padding: 10% 2%;
+    color: #fff;
+    text-align: right;
+    text-transform: uppercase;
+    background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.degradado {
+  position: absolute;
+  left: -4.41%;
+  right: 4.6%;
+  top: 71.08%;
+  bottom: 0%;
+  background: linear-gradient(360deg, #5669FF -63.71%, rgba(108, 99, 255, 0) 100%);
+  filter: blur(5px);
+}
+
+#header h1 {
+    font-size: 64;
+    font-weight: 300;
+}
+
+#header h2 {
+    font-size: 32;
+    font-weight: 600;
+}
+
+h3{
+
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  font-family: 'Exo';
+  font-style: normal;
+  color: #181464;
+}
+
+/* Cierra sección header */
+
+#featured {
+    padding: 10% 0;
+}
+
+
+#featured ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#featured li{ 
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3% 0;
+}
+
+
+#featured li img {
+    margin-bottom: 8%;
+}
+
+
+/* comienza estilos de navegacion */
+nav {
+    padding: 0.5% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    margin: 1% 0;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li{
+    margin-right: 10px;
+}
+
+nav li:hover{
+   opacity: 0.5;
+}
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+}
+/* finaliza estilos de navegacion */
+
+/* comienza estilo boton */
+
+button{
+  background: #0059FF;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;  
+  color: #fff;
+  margin-left: auto;
+}
+
+.button-right{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* comienza sección clientes */
+#clients-list {
+  background: linear-gradient(180deg, #5669FF -18.72%, #F2F2F2 99.68%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 1% 2%;
+  margin-top: 3%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* finaliza seccion clientes */
+
+
+/* comienza seccion clientes */
+#industry-list {
+  margin-top: 3%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#industry-list li {
+ text-align: center;
+ font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+}
+
+/* comienza sección contacto */
+#contact{
+  display: flex;
+  align-items: center;
+}
+
+#contact div{
+  width: 50%;
+  padding: 4%  5%;
+}
+
+#contact h5{
+   text-align: right;
+   font-weight: 600;
+  font-size: 36px;
+  line-height: 48px;
+  color: #0A758B;
+  margin-bottom: 10px;
+}
+
+#contact a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  /* Petroleo */
+  color: #181464;
+  margin-top: 10px;
+}
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  gap: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.form h6{
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+  /* Azul */
+  color: #163CF6;
+}
+
+
+input{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 5px 10px;
+  border: 0.5px solid #8F88A4;
+  border-radius: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 1% 10%;
+  background: linear-gradient(360deg, #5669FF -63.71%, rgba(108, 99, 255, 0) 100%);
+
+}
+
+footer div {
+  display: flex;
+  align-items: center;
+ 
+}
+
+.info {
+
+  flex-direction: column;
+}
+
+.info a {
+
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000;
+  text-align: right;
+}
+
+
+.info ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.info ul li{
+  margin-left: 15px;
+}
